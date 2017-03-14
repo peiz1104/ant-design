@@ -71,7 +71,7 @@ class Demo extends React.Component {
         treeData: [
           { name: 'pNode 01', key: '0-0' },
           { name: 'pNode 02', key: '0-1' },
-          { name: 'pNode 03', key: '0-2', isLeaf: true },
+          { name: 'pNode 03', key: '0-2', isLeaf: false },
         ],
       });
     }, 100);
